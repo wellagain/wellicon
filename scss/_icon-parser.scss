@@ -1,0 +1,8 @@
+@function icon($key) {
+  @if map-has-key($icons, $key) {
+    @return map-get($icons, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $icons.";
+  @return null;
+}

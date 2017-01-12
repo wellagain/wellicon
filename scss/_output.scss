@@ -1,0 +1,30 @@
+%icon {
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  font-family: 'icon';
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  speak: none;
+}
+
+[class^="icon-"]::before ,
+[class*=" icon-"]::before {
+  @extend %icon;
+}
+
+// output all the classes for every icon
+@each $icon, $value in $icons {
+  .icon-#{$icon}::before {
+    content: icon($icon);
+  }
+}
+
+// or use separatedly
+.help-us::before {
+  @extend %icon;
+  content: icon(help);
+}
