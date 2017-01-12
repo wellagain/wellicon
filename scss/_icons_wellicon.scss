@@ -1,6 +1,6 @@
 // http://www.entypo.com/
 
-@include font-face('fonts/wellicon', v1, icon);
+@include font-face('../fonts/wellicon', v1, icon);
 
 $icons: (
   'chevron-bottom': '\e900',

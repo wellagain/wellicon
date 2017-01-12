@@ -3,7 +3,7 @@
   font-family: "icon";
   font-weight: normal;
   font-style: normal;
-  src: url("fonts/wellicon.woff?v1") format("woff"), url("fonts/wellicon.ttf?v1") format("truetype"), url("fonts/wellicon.svg?v1#icon") format("svg"); }
+  src: url("../fonts/wellicon.woff?v1") format("woff"), url("../fonts/wellicon.ttf?v1") format("truetype"), url("../fonts/wellicon.svg?v1#icon") format("svg"); }
 [class^="icon-"]::before,
 [class*=" icon-"]::before, .help-us::before {
   display: inline-block;
