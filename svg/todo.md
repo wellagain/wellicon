@@ -1,0 +1,44 @@
+Icons to add:
+--------
+
+- alarm/alert
+- assignment
+- bookmark
+- check
+- check-circle
+- code
+- calendar
+- delete
+- exit
+- chat
+- home
+- lock
+- key
+- launch
+- credit card
+- phone
+- power
+- clock
+- timer
+- shopping cart
+- shopping basket
+- store
+- bank
+- suitcase
+- mail
+- copy
+- cut
+- edit
+- paste
+- flag
+- paperclip
+- link
+- undo
+- redo
+- refresh
+- battery
+- document
+- smile
+- camera
+- eye
+- eye closed
